@@ -80,13 +80,16 @@ public class Dog {
         if (maxAge < dog1.getAge()) {
             maxAge = dog1.getAge();
             nameMaxEge = dog1.getName();
-        } else if (maxAge < dog2.getAge()) {
+        }
+        if (maxAge < dog2.getAge()) {
             maxAge = dog2.getAge();
             nameMaxEge = dog2.getName();
-        } else if (maxAge < dog3.getAge()) {
+        }
+        if (maxAge < dog3.getAge()) {
             maxAge = dog3.getAge();
             nameMaxEge = dog3.getName();
-        } else if (maxAge < dog4.getAge()) {
+        }
+        if (maxAge < dog4.getAge()) {
             maxAge = dog4.getAge();
             nameMaxEge = dog4.getName();
         }
